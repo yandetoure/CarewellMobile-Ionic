@@ -19,17 +19,97 @@
   .top-bar{
   display: flex;
   justify-content: space-between;
-  margin-top: 20px;
-  margin-bottom: 7px;
+  padding-top: 10px;
+  padding-bottom: 5px;
   }
     .banner{
-    height: 400px;
+    height: 55%;
     width: 100%;
     }
 
   .infos{
-  margin-top: -48px;
+  margin-top: -38px;
   justify-items: center;
   margin-left: 6px;
   width: 98%;
   }
+
+h4{
+color: #43AA12;
+font-weight: bold;
+margin-left: 10px;
+margin-right: 10px;
+}
+.services{
+margin-top: -140px;
+
+ion-card-title{
+  font-size: 15px;
+}
+}
+.maladies{
+  ion-card-title{
+    font-size: 18px;
+  }
+  }
+  .medecins{
+    ion-card-title{
+      font-size: 15px;
+    }
+    }
+p{
+color: #00000083;
+font-weight: bold;
+font-size: 15px;
+margin-left: 10px;
+margin-right: 10px;
+}
+ion-card{
+width: 44%;
+justify-content: center;
+}
+
+.cards{
+  display: flex;
+}
+.boutton-rv{
+  height: 45px;
+  width: 100%;
+  background-color: #43AA12;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.boutton{
+  height: 40px;
+  width: 100%;
+  background-color: #1245aa;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.image{
+  width: 100%;
+}
+.temoignages{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+.card-bleu{
+  height: 140px;
+  background-color: #0072D1;
+  width: 100%;
+}
+.card-white{
+  height: 150px;
+  background-color: #ffffff;
+  margin-top: -20px;
+  width: 90%;
+  margin-left: 5%;
+}
+h5{
+  margin-top: -40px;
+  margin-left: 10px;
+}
