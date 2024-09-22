@@ -1,17 +1,20 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
+  <ion-toolbar class="top-bar">
+<div class="top-bar">
+<div class="logos" style="position: start;">
+  <img src="assets/images/logo.png" alt="" class="logo" >
+</div>
+<div class="profil"  style="position: end;">
+  <img src="assets/images/pp.png" alt="" class="circle">
+</div>
+</div>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content [fullscreen]="true" class="body">
+<img src="assets/images/banner1.png" alt=""  class="banner">
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+<div class="infos">
+<img src="assets/images/infos.png" alt="">
+</div>
 </ion-content>

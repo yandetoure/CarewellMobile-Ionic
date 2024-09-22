@@ -1,0 +1,33 @@
+.body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  .circle{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: 3px solid #0000;
+    margin-right: 8px;
+    }
+
+  .logo{
+  height: 70px;
+  width: 90px;
+  margin-left: 5px;
+  }
+  .top-bar{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 7px;
+  }
+    .banner{
+    height: 400px;
+    width: 100%;
+    }
+
+  .infos{
+  margin-top: -70px;
+  justify-items: center;
+  }

@@ -1,0 +1,35 @@
+.body {
+  height: 100%;
+  width: 100%;
+  background-image: url('/assets/images/portail.png');
+  background-size: cover; /* Ajuste l'image pour couvrir tout l'arrière-plan */
+  background-position: center; /* Centre l'image */
+}
+
+.logo {
+  height: 133px;
+  width: 173px;
+margin-top: 35px;
+text-align: center;
+margin-left: 130px;
+}
+p{
+color: white;
+font-size: 20px;
+font-family: merriweather;
+font-weight: bold;
+margin: 20px;
+margin-top: 380px;
+}
+
+.btn{
+height: 45px;
+width: 330px;
+background-color:#1F2B6C;
+font-size: 18px;
+font-weight: bold;
+font-family: merriweather;
+border-radius: 10px;
+margin-left: 48px;
+margin-top: 50px;
+}
