@@ -7,16 +7,16 @@ const routes: Routes = [
     loadChildren: () => import('./tabs/tabs.module').then(m => m.TabsPageModule)
   },
   {
-    path: 'inscription',
-    loadChildren: () => import('./auth/inscription/inscription.module').then( m => m.InscriptionPageModule)
-  },
-  {
-    path: 'connexion',
-    loadChildren: () => import('./auth/connexion/connexion.module').then( m => m.ConnexionPageModule)
-  },
-  {
     path: 'patient',
     loadChildren: () => import('./portail/patient/patient.module').then( m => m.PatientPageModule)
+  },
+  {
+    path: 'login',
+    loadChildren: () => import('./auth/login/login.module').then( m => m.LoginPageModule)
+  },
+  {
+    path: 'register',
+    loadChildren: () => import('./auth/register/register.module').then( m => m.RegisterPageModule)
   }
 ];
 @NgModule({
