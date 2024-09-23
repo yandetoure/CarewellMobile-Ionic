@@ -5,14 +5,10 @@
 </ion-header>
 
 <ion-content class="ion-padding" fullscreen>
+  <div >
   <div class="d-flex align-items-center justify-content-center" style="height: 100%;">
     <div class="login-container">
 
-      <h5>Bon retour sur CareWell!</h5>
-      <!-- Logo -->
-      <div class="text-center mb-4">
-        <img src="assets/images/logo.png" alt="Logo" class="img-fluid" style="max-width: 180px;" class="logo">
-      </div>
       <form (ngSubmit)="login()" #loginForm="ngForm">
         <ion-item class="form-group" lines="full">
           <ion-label position="floating">Email</ion-label>
@@ -33,4 +29,5 @@
       </form>
     </div>
   </div>
+</div>
 </ion-content>

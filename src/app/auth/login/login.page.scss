@@ -1,7 +1,12 @@
 body {
     font-family: 'Poppins', sans-serif;
+    height: 100%;
+    width: 100%;
+    background-image: url('/assets/images/portail.png');
+    background-size: cover; /* Ajuste l'image pour couvrir tout l'arrière-plan */
+    background-position: center; /* Centre l'image */
   }
-  
+
   ion-header {
       --background: #043b35; /* Belle couleur pour l'en-tête */
     }
